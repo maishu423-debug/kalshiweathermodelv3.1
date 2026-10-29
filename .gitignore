@@ -1,0 +1,36 @@
+*.log
+*.sqlite3
+*.pyc
+__pycache__/
+**/__pycache__/
+.env
+*.env
+.venv/
+venv/
+
+backend/.env
+backend/*.log
+backend/*.sqlite3
+
+frontend/.next/
+frontend/node_modules/
+frontend/*.log
+frontend/tsconfig.tsbuildinfo
+
+live_trader/frontend/.next/
+live_trader/frontend/node_modules/
+live_trader/**/*.sqlite3
+live_trader/trade_state.json
+
+.claude/settings.local.json
+
+# runtime forecast-vs-actual log (backend/kalshi_api/forecast_log.py)
+backend/forecast_log.csv
+
+# LDM vs public comparison logs and reports
+backend/logs/
+backend/modelscripts/asos_last_good.json
+
+# any other env file (e.g. .env.local), but keep a template if you add one
+.env.*
+!.env.example

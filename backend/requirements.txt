@@ -1,0 +1,10 @@
+Django==6.0.6
+cryptography==49.0.0
+gunicorn
+gspread==6.2.1
+google-auth==2.56.0
+numpy==2.4.6
+pandas==3.0.3
+requests==2.34.2
+websockets==16.0
+scipy==1.18.0
